@@ -53,17 +53,9 @@
 	$.fn.rsDice = function(options) {
 
 		return this.each(function() {
-
-			var element = $(this);
-
-			// Return early if this element already has a plugin instance
-			if (element.data('myDice')) return;
 	 
            	var myDice = new MyDice(this, options);
            	myDice.rollDice();
-
-           	// Store plugin object in this element's data
-			element.data('myDice', myDice);
 
        	});
 
