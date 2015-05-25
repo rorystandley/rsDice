@@ -42,6 +42,12 @@ $(function(){
             <td>2000</td>
             <td>int</td>
         </tr> 
+        <tr>
+            <td>callBack</td>
+            <td>Callback functio for when the roll has finished</td>
+            <td></td>
+            <td>function</td>
+        </tr> 
     </tbody>
 </table>
 
