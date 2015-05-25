@@ -44,7 +44,11 @@
 				var finalChoice = myNumbers[Math.floor(Math.random()*myNumbers.length)];
 				elem.text(finalChoice);
 				window.clearInterval(myInterval);
-				settings.callBack.call(this);
+
+				if ( $.isFunction( settings.callBack ) ) {
+					settings.callBack.call(obj);
+				}
+				
 			}, settings.duration);
 
 			
