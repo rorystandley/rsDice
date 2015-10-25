@@ -3,6 +3,12 @@ rsDice
 
 Create a textual dice roll effect. Choose how many 'sides' your dice has. Specify the speed at which the dice rolls and then the duration of the roll. The plugin will change the text of a chosen div to give the effect of a changing dice roll, with a final choice for the result of the roll.
 
+**Installation**
+--
+```
+npm install rsdice
+```
+
 **Usage**
 --
 
